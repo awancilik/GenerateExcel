@@ -2,7 +2,7 @@ version: '{branch}.{build}'
 branches:
   only:
   - master
-image: Visual Studio Community 2017 version 15.9.17
+image: Visual Studio Community 2017
 configuration: Release
 platform: Any CPU
 build:
