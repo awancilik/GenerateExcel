@@ -1,0 +1,10 @@
+version: '{branch}.{build}'
+branches:
+  only:
+  - master
+image: Visual Studio 2019 Preview
+configuration: Release
+platform: Any CPU
+build:
+  project: GenerateExcel.ps1
+  verbosity: minimal
